@@ -3217,8 +3217,7 @@ input[type="button"].btn-block {
   min-width: 0;
   word-wrap: break-word;
   background-color: #121212;
-  background-clip: border-box;
-  border: 1px solid #dddddd;
+  /*background-clip: border-box;*/
   border-radius: .512rem; }
   .card > hr {
     margin-right: 0;

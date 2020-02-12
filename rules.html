@@ -19,6 +19,7 @@
     <link href="./assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
     <link href="./assets/css/custom.css" rel="stylesheet">
     <link href="./assets/css/vendor.min.css" rel="stylesheet">
+    <link href="./assets/css/timeline.css" rel="stylesheet">
 
     <style>
         .js div#preloader {
@@ -95,7 +96,83 @@
     </nav>
     <!-- End Navbar -->
 
+    <!--  -->
+    <div class="wrapper" style="margin-top: 150px;">
+        <div class="container">
+            <div class="header text-center">
+                <h3 class="title">STEPS TO FOLLOW</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-timeline card-plain">
+                        <div class="card-body">
+                            <ul class="timeline">
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge success">
+                                        <p></p>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <span class="badge badge-pill badge-danger">STEP 1 </span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>The applications should be submitted in a written format to the website for
+                                                the preliminary stage.</p>
+                                        </div>
+                                    </div>
+                                </li>
     
+                                <li>
+                                    <div class="timeline-badge success">
+                                        <p></p>
+                                    </div>
+                                    <div class="timeline-panel" style="background-color:#f0f0f0">
+                                        <div class="timeline-heading">
+                                            <span class="badge badge-pill badge-danger">STEP 2</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Applicants that passed the preliminary stage would be contacted for the
+                                                quarter finals and would have to submit a video presentation of their
+                                                invention.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge success">
+                                        <p></p>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <span class="badge badge-pill badge-danger">STEP 3</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Applications that scale through the quarter finals into the semi-finals
+                                                would be required to make a physical presentation with their invention,
+                                                explaining how it works and how it can help Nigeria tackle a problem.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge success">
+                                        <p></p>
+                                    </div>
+                                    <div class="timeline-panel" style="background-color:#f0f0f0">
+                                        <div class="timeline-heading">
+                                            <span class="badge badge-pill badge-danger">STEP 4</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Applications would be judged based on originality and effectiveness.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/  -->
 
     <!-- Footer -->
     <footer class="pb-4 bg-primary-3 o-hidden text-light" id="footer">
@@ -119,7 +196,7 @@
                             </svg>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
             <div class="row mb-5">
@@ -201,7 +278,8 @@
                     <form>
                         <div class="form-row">
                             <div class="col-12">
-                                <input type="email" class="form-control" placeholder="Email Address" name="email" required="">
+                                <input type="email" class="form-control" placeholder="Email Address" name="email"
+                                    required="">
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="btn btn-primary btn-loading btn-block">
@@ -210,7 +288,8 @@
                             </div>
                         </div>
                     </form>
-                    <small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a>
+                    <small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy
+                            Policy</a>
                     </small>
                 </div>
             </div>
@@ -275,21 +354,21 @@
                 </div>
             </div>
         </div>
-    
+
     </footer>
-    
+
     </div>
-    
-    
+
+
     <div class="cursor">
         <div class="cursor--small"></div>
     </div>
-    
-    
+
+
     <script type="text/javascript">
         document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
-    
+
     <script>
         const cursor = document.querySelector(".cursor");
 
@@ -297,7 +376,7 @@
             cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
         })
     </script>
-    
+
     <!--   Core JS Files   -->
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -308,7 +387,7 @@
     <script src="./assets/js/plugins/slick.min.js" type="text/javascript"></script>
     <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
     <script src="./assets/js/vendor.min.js" type="text/javascript"></script>
-    
+
     <script src="./assets/js/main-slider-script.js" type="text/javascript"></script>
     <script>
         $(document).ready(function () {
@@ -336,5 +415,5 @@
         });
     </script>
 </body>
-    
+
 </html>
